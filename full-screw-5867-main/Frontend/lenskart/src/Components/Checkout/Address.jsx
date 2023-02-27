@@ -39,6 +39,8 @@ function Form() {
       setFormErrors({firstName: "", lastName: "", city: "", address: "", pinCode: "", country: "" });
     }
 
+    navigate("/payment")
+
   };
 
   const validate = (formData) => {
