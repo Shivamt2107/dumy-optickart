@@ -184,15 +184,7 @@ const Checkout = () => {
         </Box>
                 
              </Box>
-            <Box style={{flex:"3"}}>
-                    <Box style={{borderWidth: "1px", borderColor: "rgb(160,160,255)",marginTop:"5px",height:"auto"}}>
-                    <Box display="flex" p={1} justifyContent="space-between" color="white" bg='#363636' >
-                        <Text>SHOPPING CART</Text>
-                        <Text>ITEM</Text>
-                    </Box>
-                    <CheckoutTotal/>
-                    </Box>
-            </Box>
+           
         </Box>
     </>
   )
